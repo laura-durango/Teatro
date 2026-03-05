@@ -2,7 +2,7 @@ public class Punto4 {
 
     private int Numero;
     private int Fila;
-    private int Precio;
+    private double Precio;
     public Punto4(int numero, int fila, int precio) {
         Numero = numero;
         Fila = fila;
@@ -22,7 +22,7 @@ public class Punto4 {
     public void setFila(int fila) {
         Fila = fila;
     }
-    public int getPrecio() {
+    public double getPrecio() {
         return Precio;
     }
     public void setPrecio(int precio) {
